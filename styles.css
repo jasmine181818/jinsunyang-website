@@ -29,3 +29,13 @@
 .media-video-title{font-family:Georgia,serif;font-size:clamp(20px,2.6vw,30px);line-height:1.35;max-width:470px}
 .media-play{background:#f8f7f0;color:#284834;width:68px;height:68px;border-radius:50%;display:flex;justify-content:center;align-items:center;font-size:25px;padding-left:4px}
 .media-watch{font-size:13px;text-decoration:underline;text-underline-offset:4px}
+/* Give research category labels more room */
+.project {
+  grid-template-columns: 130px minmax(0, 1fr);
+  gap: 20px;
+}
+
+.project-index {
+  overflow-wrap: break-word;
+  line-height: 1.6;
+}
